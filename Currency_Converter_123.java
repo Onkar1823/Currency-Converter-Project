@@ -1,0 +1,650 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
+ */
+package CurrencyConverter123;
+
+/**
+ *
+ * @author Onkar Swami
+ */
+public class Currency_Converter_123 extends javax.swing.JFrame {
+    
+    double Bangladeshi_Taka = 111.91;
+double Belarusian_Ruble = 2.74;
+double Belize_Dollar = 2.19;
+double Bermudan_Dollar = 1.09;
+double Bhutan_Currency = 87.82;
+double Bolivian_Boliviano = 7.50;
+double Bosnia_Mark = 2.18;
+double Botswanan_Pula = 14.42;
+double Brazilian_Real = 5.71;
+double Brunei_Dollar = 1.55;
+double Bulgarian_Lev = 2.19;
+double Burundian_Franc = 2222.77;
+double CfpFranc = 132.24;
+double Combodian_Reil = 4485.57;
+double Canadian_Dollar = 1.48;
+double Cape_Verdean_Escudo = 120.62;
+double Cayman_Island_Dollar = 0.90;
+double Chilean_Peso = 1054.19;
+double Chilean_unit_Of_Account = 0.031;
+double Chinese_Yuan = 7.74;
+double Colombian_Peso = 4281.58;
+double Comorian_Franc = 552.55;
+double Congolese_Franc = 2221.51;
+double Costa_Rican_Colon = 684.48;
+double Croatin_Kuna = 8.44;
+double Cuban_Peso = 26.5;
+double Czech_koruna = 27.61;
+double Danish_krone = 8.33;
+double Djiboutian_Peso = 193.05;
+double East_Caribbean_Dollar = 2.94;
+double Egyptian_Pound = 21.17;
+double European_Euro = 1.12;
+double FIjan_Dollar = 2.49;
+double Gambian_Dalasi = 59.50;
+double Georgian_Lari = 3.07;
+double Ghanaian_cedi = 10.99;
+double Gautamalam_Quetzal = 8.52;
+double Guinean_Franc = 9512.43;
+double Guyanaese_Dollar = 227.30;
+double Haitian_Gourde = 128.74;
+double Honduran_Lempira = 26.90;
+double Hong_Kong_Dollar = 8.53;
+double Hungarian_Forint = 455.88;
+double Icelandic_Krona = 156.62;
+double Indian_Rupee = 88.31;
+double Indonesian_Rupiah = 16429.13;
+double Iranian_Rial = 46023.86;
+double Iraqi_Dinar = 1588.04;
+double Israeli_New_Shekel = 3.82;
+double Jamacian_Dollar = 165.11;
+double Japanese_Yen = 155.79;
+double Jordanian_Dinar = 0.77;
+double Kazakhstani_TengeKenyn_Shilling = 523.57;
+double Kuwaiti_Dinar = 0.34;
+double Kyrgystani_Som = 88.70;
+double Laotian_Kio = 17643.63;
+double Lebanese_Pound = 1649.64;
+double Lesotho_Loti = 19.52;
+double Liberian_Dollar = 167.46;
+double Macanese_Pataca = 8.79;
+double Macedonian_Denar = 68.67;
+double Malagasy_Ariary = 4508.56;
+double Malawian_Kwacha = 1109.21;
+double Malaysian_Ringgit = 4.98;
+double Maldivian_Rufiyaa = 16.79;
+double Mauritanian_Ouguiya = 41.25;
+double Mauritian_Rupee = 48.42;
+double Mexican_Peso = 21.94;
+double Moldovan_Leu = 21.11;
+double Moroccan_Dirham = 11.81;
+double Mozambican_Metical = 69.38;
+double Myanmar_Kyat = 22280.86;
+double Mamibian_Dollar = 19.51;
+double Nepalkese_Rupee = 140.58;
+double Netherland_Antilean = 1.96;
+double New_Taiwan_Dollar = 34.62;
+double New_Zealand_Dollar = 1.89;
+double Niaraguan_Cordoba = 39.11;
+double Nigeian_Naira = 468.01;
+double Norwegian_Krone = 11.53;
+double Omani_Rial = 0.42;
+double Pakistani_Rupee = 260.62;
+double Panamanian_Bakboa = 1.09;
+double Papue_NewGuinean_Kina = 3.83;
+double Paraguayan_Guarani = 7623.76;
+double Philippine_Peso = 63.93;
+double Poland_Zloty = 5.34;
+double Qatari_Rial = 3.96;
+double Romanian_Leu = 5.54;
+double Russian_Ruble = 63.39;
+double Rwandan_Franc = 11130.15;
+double Salvadoran_Colon = 9.50;
+double Saudi_Dinar = 4.09;
+double Serbian_Dinar = 131.58;
+double Seychellois_Rupee = 15.62;
+double Seirra_Leonean_Leone = 13931.29;
+double Singapore_Dollar = 1.55;
+double Sol = 4.25;
+double SouthAfrican_Rand = 19.50;
+double South_Korean_Won = 1545.98;
+double Sovereign_Bolivar = 8.80;
+double Sri_Lankan_Rupee = 390.96;
+double Sudanese_Pound = 627.63;
+double Surinamese_Dollar = 29.85;
+double Swedish_Krona = 12.27;
+double Swiss_Franc = 1.07;
+double Tjikistani_Somani = 10.83;
+double Tanzanian_Shilling = 2632.26;
+double Thai_Baht = 40.85;
+double Tongon_Paanga = 2.61;
+double Triniad_Dollar = 7.39;
+double Tunisian_Dinar = 3.58;
+double Turkish_lira = 20.01;
+double Turkmenistani_Manat = 3.81;
+double Ugandb_Shilling = 4125.02;
+double Ukranian_Hryvnia = 40.11;
+double UAE_Dirham = 3.99;
+double US_Dollar = 1.09;
+double Uruguayan_Peso = 44.37;
+double Uzbekistani_Som = 11987.79;
+double Vietnamese_Dong = 25768.86;
+double Yemani_Rial = 272.12;
+double Zambian_Kwacha = 17.38;
+    
+
+double Nigerian_Naira = 476.57;
+double Kenyan_Shilling = 132.53;
+double Philippine_Pisco = 71.17;
+
+    
+    String[] currencyUnits = {
+"Units",
+"US Dollar",
+"Nigerian Naira",
+"Brazilian Real",
+"Canadian Dollar",
+"Kenyan Shilling",
+"Indonesian Rupiah",
+"Indian Rupee",
+"Philippine Pisco",
+"Paskistani Rupee"
+};
+
+    /**
+     * Creates new form Currency_Converter_123
+     */
+    public Currency_Converter_123() {
+        initComponents();
+    }
+
+    /**
+     * This method is called from within the constructor to initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is always
+     * regenerated by the Form Editor.
+     */
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        firstCurrency = new javax.swing.JComboBox<>();
+        secondCurrency = new javax.swing.JComboBox<>();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        t2 = new javax.swing.JTextField();
+        t1 = new javax.swing.JTextField();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jPanel1.setBackground(new java.awt.Color(255, 188, 208));
+        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 51, 153), 4));
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 0, 153));
+        jLabel1.setText("Currency Converter");
+
+        firstCurrency.setForeground(new java.awt.Color(255, 51, 153));
+        firstCurrency.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Choose One...", "Bosnia Mark", "Botswanan Pula", "Brazilian Real", "Brunei Dollar", "Bulgarian Lev", "Burundian Franc", "CfpFrancCombodian Reil", "Canadian Dollar", "Cape Verdean Escudo", "Cayman Island Dollar", "Chilean Peso", "Chikean unit Of Account", "Chinese Yuan", "Colombian Peso", "Comorian Franc", "Congolese Franc", "CCosta Rican Colon", "Croatin Kuna", "Cuban Peso", "Czech koruna", "Danish krone", "Djiboutian Peso", "East Caribbean Dollar", "Egyptian Pound", "European Euro", "FIjan Dollar", "Gambian Dalasi", "Georgian Lari", "Ghanaian cedi", "Gautamalam Quetzal", "Guinean Franc", "Guyanaese Dollar", "Haitian Gourde", "Honduran Lempira", "Hong KOng Dollar", "Hungarian Forint", "Icelandic Krona", "Indian Rupee", "Iranian Rial", "Iraqi Dinar", "Israeli New Shekel", "Jamacian Dollar", "Japanese Yen", "Jordanian Dinar", "Kazakhstani TengeKenyn Shilling", "Kuwaiti Dinar", "Kyrgystani Som", "Laotian Kio", "Lebanese Pound", "Lesotho Loti", "Liberian Dollar", "Macanese Pataca", "Macedonian Denar", "Malagasy Ariary", "Malawian Kwacha", "MalaysianRinggit", "Maldivian Rufiyaa", "Mauritanian Ouguiya", "Mauritian Rupee", "Mexican Peso", "Moldovan Leu", "Moroccan Dirham", "Mozambican Metical", "Myanmar Kyat", "Mamibian Dollar", "Nepalkese Rupee", "Netherland Antilean", "New Taiwan Dollar", "New Zealand Dollar", "Niaraguan Cordoba", "Nigeian Naira", "Norwegian Krone", "Omani Rial", "Pakistani Rupee", "Panamanian Bakboa", "Papue NewGuinean Kina", "Paraguayan Guarani", "Phi;ippinePeso", "PolandZloty", "Pound Sterling", "Qatari Rial", "Romanian Leu", "Russian Ruble", "Rwandan Franc", "Salvadoran Colon", "Saudi Dinar", "Serbian Dinar", "Seychellois Rupee", "Seirra Leonean Leone", "Singapore Dollar", "Sol", "SouthAfricanRand", "Soutn Korean Won", "Sovereign Bolivar", "Sri Lankan Rupee", "Sudanese Pound", "Surinamese Dollar", "Swedish Krona", "Swiss Franc", "Tjikistani Somani", "Tanzanian Shilling", "Thai Baht", "Tongon Paanga", "Triniad Dollar", "Tunisian Dinar", "Turkish Kira", "Turkmenistani Manat", "Ugandb Shilling", "Ukranian Hryvnia", "UAE Dirham", "US Dollar", "Uruguayan Peso", "Uzbekistani Som", "Vietnamese Dong", "Yemani Rial", "Zambian Kwacha" }));
+        firstCurrency.addItemListener(new java.awt.event.ItemListener() {
+            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+                firstCurrencyItemStateChanged(evt);
+            }
+        });
+
+        secondCurrency.setForeground(new java.awt.Color(255, 51, 153));
+        secondCurrency.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Choose One...", "Bosnia Mark", "Botswanan Pula", "Brazilian Real", "Brunei Dollar", "Bulgarian Lev", "Burundian Franc", "CfpFrancCombodian Reil", "Canadian Dollar", "Cape Verdean Escudo", "Cayman Island Dollar", "Chilean Peso", "Chikean unit Of Account", "Chinese Yuan", "Colombian Peso", "Comorian Franc", "Congolese Franc", "CCosta Rican Colon", "Croatin Kuna", "Cuban Peso", "Czech koruna", "Danish krone", "Djiboutian Peso", "East Caribbean Dollar", "Egyptian Pound", "European Euro", "FIjan Dollar", "Gambian Dalasi", "Georgian Lari", "Ghanaian cedi", "Gautamalam Quetzal", "Guinean Franc", "Guyanaese Dollar", "Haitian Gourde", "Honduran Lempira", "Hong KOng Dollar", "Hungarian Forint", "Icelandic Krona", "Indian Rupee", "Iranian Rial", "Iraqi Dinar", "Israeli New Shekel", "Jamacian Dollar", "Japanese Yen", "Jordanian Dinar", "Kazakhstani TengeKenyn Shilling", "Kuwaiti Dinar", "Kyrgystani Som", "Laotian Kio", "Lebanese Pound", "Lesotho Loti", "Liberian Dollar", "Macanese Pataca", "Macedonian Denar", "Malagasy Ariary", "Malawian Kwacha", "MalaysianRinggit", "Maldivian Rufiyaa", "Mauritanian Ouguiya", "Mauritian Rupee", "Mexican Peso", "Moldovan Leu", "Moroccan Dirham", "Mozambican Metical", "Myanmar Kyat", "Mamibian Dollar", "Nepalkese Rupee", "Netherland Antilean", "New Taiwan Dollar", "New Zealand Dollar", "Niaraguan Cordoba", "Nigeian Naira", "Norwegian Krone", "Omani Rial", "Pakistani Rupee", "Panamanian Bakboa", "Papue NewGuinean Kina", "Paraguayan Guarani", "Phi;ippinePeso", "PolandZloty", "Pound Sterling", "Qatari Rial", "Romanian Leu", "Russian Ruble", "Rwandan Franc", "Salvadoran Colon", "Saudi Dinar", "Serbian Dinar", "Seychellois Rupee", "Seirra Leonean Leone", "Singapore Dollar", "Sol", "SouthAfricanRand", "Soutn Korean Won", "Sovereign Bolivar", "Sri Lankan Rupee", "Sudanese Pound", "Surinamese Dollar", "Swedish Krona", "Swiss Franc", "Tjikistani Somani", "Tanzanian Shilling", "Thai Baht", "Tongon Paanga", "Triniad Dollar", "Tunisian Dinar", "Turkish Kira", "Turkmenistani Manat", "Ugandb Shilling", "Ukranian Hryvnia", "UAE Dirham", "US Dollar", "Uruguayan Peso", "Uzbekistani Som", "Vietnamese Dong", "Yemani Rial", "Zambian Kwacha" }));
+        secondCurrency.addItemListener(new java.awt.event.ItemListener() {
+            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+                secondCurrencyItemStateChanged(evt);
+            }
+        });
+
+        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 0, 153));
+        jLabel2.setText("From");
+
+        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 0, 153));
+        jLabel3.setText("To");
+
+        jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 0, 153));
+        jButton1.setText("Convert");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
+        jButton2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 0, 153));
+        jButton2.setText("Exit");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+
+        jButton3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(255, 0, 153));
+        jButton3.setText("Reset");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+
+        t2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        t2.setForeground(new java.awt.Color(255, 51, 153));
+        t2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                t2ActionPerformed(evt);
+            }
+        });
+
+        t1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        t1.setForeground(new java.awt.Color(255, 51, 153));
+        t1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                t1ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(104, 104, 104)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jButton1)
+                        .addGap(139, 139, 139)
+                        .addComponent(jButton3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 141, Short.MAX_VALUE)
+                        .addComponent(jButton2))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel2)
+                            .addComponent(t1, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(firstCurrency, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(secondCurrency, 0, 141, Short.MAX_VALUE)
+                            .addComponent(t2))))
+                .addGap(112, 112, 112))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addGap(250, 250, 250))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addGap(45, 45, 45)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel3))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(firstCurrency, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(secondCurrency, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(t2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(t1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 62, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton3)
+                    .addComponent(jButton1)
+                    .addComponent(jButton2))
+                .addGap(43, 43, 43))
+        );
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        pack();
+    }// </editor-fold>//GEN-END:initComponents
+
+    private void t1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_t1ActionPerformed
+
+    private void t2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_t2ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        System.exit(0);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void firstCurrencyItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_firstCurrencyItemStateChanged
+       
+    }//GEN-LAST:event_firstCurrencyItemStateChanged
+
+    private void secondCurrencyItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_secondCurrencyItemStateChanged
+        
+    }//GEN-LAST:event_secondCurrencyItemStateChanged
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+       double amountToChange=Double.parseDouble(t1.getText());
+        double amountChanged=0.0;
+        double amountInPounds=0.0;
+        
+      switch(firstCurrency.getSelectedItem().toString())
+        {
+       case "Bangladeshi Taka": amountInPounds = amountToChange/Bangladeshi_Taka;break;
+case "Belarusian Ruble": amountInPounds = amountToChange/Belarusian_Ruble;break;
+case "Belize Dollar": amountInPounds = amountToChange/Belize_Dollar;break;
+case "Bermudan Dollar": amountInPounds = amountToChange/Bermudan_Dollar;break;
+case "Bhutan Currency": amountInPounds = amountToChange/Bhutan_Currency;break;
+case "Bolivian Boliviano": amountInPounds = amountToChange/Bolivian_Boliviano;break;
+case "Bosnia Mark": amountInPounds = amountToChange/Bosnia_Mark;break;
+case "Botswanan Pula": amountInPounds = amountToChange/Botswanan_Pula;break;
+case "Brazilian Real": amountInPounds = amountToChange/Brazilian_Real;break;
+case "Brunei Dollar": amountInPounds = amountToChange/Brunei_Dollar;break;
+case "Bulgarian Lev": amountInPounds = amountToChange/Bulgarian_Lev;break;
+case "Burundian Franc": amountInPounds = amountToChange/Burundian_Franc;break;
+case "CfpFranc": amountInPounds = amountToChange/CfpFranc;break;
+case "Canadian Dollar": amountInPounds = amountToChange/Canadian_Dollar;break;
+case "Cape Verdean Escudo": amountInPounds = amountToChange/Cape_Verdean_Escudo;break;
+case "Cayman Island Dollar": amountInPounds = amountToChange/Cayman_Island_Dollar;break;
+case "Chilean Peso": amountInPounds = amountToChange/Chilean_Peso;break;
+case "Chilean unit Of Account": amountInPounds = amountToChange/Chilean_unit_Of_Account;break;
+case "Chinese Yuan": amountInPounds = amountToChange/Chinese_Yuan;break;
+case "Colombian Peso": amountInPounds = amountToChange/Colombian_Peso;break;
+case "Comorian Franc": amountInPounds = amountToChange/Comorian_Franc;break;
+case "Congolese Franc": amountInPounds = amountToChange/Congolese_Franc;break;
+case "Costa Rican Colon": amountInPounds = amountToChange/Costa_Rican_Colon;break;
+case "Croatin Kuna": amountInPounds = amountToChange/Croatin_Kuna;break;
+case "Cuban Peso": amountInPounds = amountToChange/Cuban_Peso;break;
+case "Czech koruna": amountInPounds = amountToChange/Czech_koruna;break;
+case "Danish krone": amountInPounds = amountToChange/Danish_krone;break;
+case "Djiboutian Peso": amountInPounds = amountToChange/Djiboutian_Peso;break;
+case "East Caribbean Dollar": amountInPounds = amountToChange/East_Caribbean_Dollar;break;
+case "Egyptian Pound": amountInPounds = amountToChange/Egyptian_Pound;break;
+case "European Euro": amountInPounds = amountToChange/European_Euro;break;
+case "FIjan Dollar": amountInPounds = amountToChange/FIjan_Dollar;break;
+case "Gambian Dalasi": amountInPounds = amountToChange/Gambian_Dalasi;break;
+case "Georgian Lari": amountInPounds = amountToChange/Georgian_Lari;break;
+case "Ghanaian cedi": amountInPounds = amountToChange/Ghanaian_cedi;break;
+case "Gautamalam Quetzal": amountInPounds = amountToChange/Gautamalam_Quetzal;break;
+case "Guinean Franc": amountInPounds = amountToChange/Guinean_Franc;break;
+case "Guyanaese Dollar": amountInPounds = amountToChange/Guyanaese_Dollar;break;
+case "Haitian Gourde": amountInPounds = amountToChange/Haitian_Gourde;break;
+case "Honduran Lempira": amountInPounds = amountToChange/Honduran_Lempira;break;
+case "Hong KOng Dollar": amountInPounds = amountToChange/Hong_Kong_Dollar;break;
+case "Hungarian Forint": amountInPounds = amountToChange/Hungarian_Forint;break;
+case "Icelandic Krona": amountInPounds = amountToChange/Icelandic_Krona;break;
+case "Indian Rupee": amountInPounds = amountToChange/Indian_Rupee;break;
+case "Iranian Rial": amountInPounds = amountToChange/Iranian_Rial;break;
+case "Iraqi Dinar": amountInPounds = amountToChange/Iraqi_Dinar;break;
+case "Israeli New Shekel": amountInPounds = amountToChange/Israeli_New_Shekel;break;
+case "Jamacian Dollar": amountInPounds = amountToChange/Jamacian_Dollar;break;
+case "Japanese Yen": amountInPounds = amountToChange/Japanese_Yen;break;
+case "Jordanian Dinar": amountInPounds = amountToChange/Jordanian_Dinar;break;
+case "Kazakhstani TengeKenyn Shilling": amountInPounds = amountToChange/Kazakhstani_TengeKenyn_Shilling;break;
+case "Kuwaiti Dinar": amountInPounds = amountToChange/Kuwaiti_Dinar;break;
+case "Kyrgystani Som": amountInPounds = amountToChange/Kyrgystani_Som;break;
+case "Laotian Kio": amountInPounds = amountToChange/Laotian_Kio;break;
+case "Lebanese Pound": amountInPounds = amountToChange/Lebanese_Pound;break;
+case "Lesotho Loti": amountInPounds = amountToChange/Lesotho_Loti;break;
+case "Liberian Dollar": amountInPounds = amountToChange/Liberian_Dollar;break;
+case "Macanese Pataca": amountInPounds = amountToChange/Macanese_Pataca;break;
+case "Macedonian Denar": amountInPounds = amountToChange/Macedonian_Denar;break;
+case "Malagasy Ariary": amountInPounds = amountToChange/Malagasy_Ariary;break;
+case "Malawian Kwacha": amountInPounds = amountToChange/Malawian_Kwacha;break;
+case "MalaysianRinggit": amountInPounds = amountToChange/Malaysian_Ringgit;break;
+case "Maldivian Rufiyaa": amountInPounds = amountToChange/Maldivian_Rufiyaa;break;
+case "Mauritanian Ouguiya": amountInPounds = amountToChange/Mauritanian_Ouguiya;break;
+case "Mauritian Rupee": amountInPounds = amountToChange/Mauritian_Rupee;break;
+case "Mexican Peso": amountInPounds = amountToChange/Mexican_Peso;break;
+case "Moldovan Leu": amountInPounds = amountToChange/Moldovan_Leu;break;
+case "Moroccan Dirham": amountInPounds = amountToChange/Moroccan_Dirham;break;
+case "Mozambican Metical": amountInPounds = amountToChange/Mozambican_Metical;break;
+case "Myanmar Kyat": amountInPounds = amountToChange/Myanmar_Kyat;break;
+case "Mamibian Dollar": amountInPounds = amountToChange/Mamibian_Dollar;break;
+case "Nepalkese Rupee": amountInPounds = amountToChange/Nepalkese_Rupee;break;
+case "Netherland Antilean": amountInPounds = amountToChange/Netherland_Antilean;break;
+case "New Taiwan Dollar": amountInPounds = amountToChange/New_Taiwan_Dollar;break;
+case "New Zealand Dollar": amountInPounds = amountToChange/New_Zealand_Dollar;break;
+case "Niaraguan Cordoba": amountInPounds = amountToChange/Niaraguan_Cordoba;break;
+case "Nigeian Naira": amountInPounds = amountToChange/Nigerian_Naira;break;
+case "Norwegian Krone": amountInPounds = amountToChange/Norwegian_Krone;break;
+case "Omani Rial": amountInPounds = amountToChange/Omani_Rial;break;
+case "Pakistani Rupee": amountInPounds = amountToChange/Pakistani_Rupee;break;
+case "Panamanian Bakboa": amountInPounds = amountToChange/Panamanian_Bakboa;break;
+case "Papue NewGuinean Kina": amountInPounds = amountToChange/Papue_NewGuinean_Kina;break;
+case "Paraguayan Guarani": amountInPounds = amountToChange/Paraguayan_Guarani ;break;
+case "PhilippinePeso": amountInPounds = amountToChange/Philippine_Peso;break;
+case "PolandZloty": amountInPounds = amountToChange/Poland_Zloty;break;
+
+case "Qatari Rial": amountInPounds = amountToChange/Qatari_Rial;break;
+case "Romanian Leu": amountInPounds = amountToChange/Romanian_Leu;break;
+case "Russian Ruble": amountInPounds = amountToChange/Russian_Ruble;break;
+case "Rwandan Franc": amountInPounds = amountToChange/Rwandan_Franc;break;
+case "Salvadoran Colon": amountInPounds = amountToChange/Salvadoran_Colon;break;
+case "Saudi Dinar": amountInPounds = amountToChange/Saudi_Dinar;break;
+case "Serbian Dinar": amountInPounds = amountToChange/Serbian_Dinar;break;
+case "Seychellois Rupee": amountInPounds = amountToChange/Seychellois_Rupee;break;
+case "Seirra Leonean Leone": amountInPounds = amountToChange/Seirra_Leonean_Leone;break;
+case "Singapore Dollar": amountInPounds = amountToChange/Singapore_Dollar;break;
+case "Sol": amountInPounds = amountToChange/Sol;break;
+case "SouthAfrican_Rand": amountInPounds = amountToChange/SouthAfrican_Rand;break;
+case "South Korean Won": amountInPounds = amountToChange/South_Korean_Won;break;
+case "Sovereign Bolivar": amountInPounds = amountToChange/Sovereign_Bolivar;break;
+case "Sri Lankan Rupee": amountInPounds = amountToChange/Sri_Lankan_Rupee;break;
+case "Sudanese Pound": amountInPounds = amountToChange/Sudanese_Pound;break;
+case "Surinamese Dollar": amountInPounds = amountToChange/Surinamese_Dollar;break;
+case "Swedish Krona": amountInPounds = amountToChange/Swedish_Krona;break;
+case "Swiss Franc": amountInPounds = amountToChange/Swiss_Franc;break;
+case "Tjikistani Somani": amountInPounds = amountToChange/Tjikistani_Somani;break;
+case "Tanzanian Shilling": amountInPounds = amountToChange/Tanzanian_Shilling;break;
+case "Thai Baht": amountInPounds = amountToChange/Thai_Baht;break;
+case "Tongon Paanga": amountInPounds = amountToChange/Tongon_Paanga;break;
+case "Triniad Dollar": amountInPounds = amountToChange/Triniad_Dollar;break;
+case "Tunisian Dinar": amountInPounds = amountToChange/Tunisian_Dinar;break;
+case "Turkish kira": amountInPounds = amountToChange/Turkish_lira;break;
+case "Turkmenistani Manat": amountInPounds = amountToChange/Turkmenistani_Manat;break;
+case "Ugandb Shilling": amountInPounds = amountToChange/Ugandb_Shilling;break;
+case "Ukranian Hryvnia": amountInPounds = amountToChange/Ukranian_Hryvnia;break;
+case "UAE Dirham": amountInPounds = amountToChange/UAE_Dirham;break;
+case "US Dollar": amountInPounds = amountToChange/US_Dollar;break;
+case "Uruguayan Peso": amountInPounds = amountToChange/Uruguayan_Peso;break;
+case "Uzbekistani Som": amountInPounds = amountToChange/Uzbekistani_Som;break;
+case "Vietnamese Dong": amountInPounds = amountToChange/Vietnamese_Dong;break;
+case "Yemani Rial": amountInPounds = amountToChange/Yemani_Rial;break;
+case "Zambian Kwacha": amountInPounds = amountToChange/Zambian_Kwacha;break;
+	default:amountInPounds = 0.0;
+        }
+
+        //amount is Changed in pounds
+        
+        switch(secondCurrency.getSelectedItem().toString())
+        {
+       case "Bangladeshi Taka": amountChanged = amountInPounds *Bangladeshi_Taka;break;
+case "Belarusian Ruble":amountChanged = amountInPounds * Belarusian_Ruble;break;
+case "Belize Dollar":amountChanged = amountInPounds * Belize_Dollar;break;
+case "Bermudan Dollar":amountChanged = amountInPounds * Bermudan_Dollar;break;
+case "Bhutan Currency": amountChanged = amountInPounds *Bhutan_Currency;break;
+case "Bolivian Boliviano": amountChanged = amountInPounds *Bolivian_Boliviano;break;
+case "Bosnia Mark": amountChanged = amountInPounds *Bosnia_Mark;break;
+case "Botswanan Pula": amountChanged = amountInPounds *Botswanan_Pula;break;
+case "Brazilian Real": amountChanged = amountInPounds *Brazilian_Real;break;
+case "Brunei Dollar": amountChanged = amountInPounds *Brunei_Dollar;break;
+case "Bulgarian Lev": amountChanged = amountInPounds *Bulgarian_Lev;break;
+case "Burundian Franc": amountChanged = amountInPounds *Burundian_Franc;break;
+case "CfpFranc":amountChanged = amountInPounds * CfpFranc;break;
+case "Canadian Dollar": amountChanged = amountInPounds *Canadian_Dollar;break;
+case "Cape Verdean Escudo": amountChanged = amountInPounds *Cape_Verdean_Escudo;break;
+case "Cayman Island Dollar": amountChanged = amountInPounds *Cayman_Island_Dollar;break;
+case "Chilean Peso": amountChanged = amountInPounds *Chilean_Peso;break;
+case "Chilean unit Of Account":amountChanged = amountInPounds * Chilean_unit_Of_Account;break;
+case "Chinese Yuan": amountChanged = amountInPounds *Chinese_Yuan;break;
+case "Colombian Peso":amountChanged = amountInPounds *Colombian_Peso;break;
+case "Comorian Franc":amountChanged = amountInPounds *Comorian_Franc;break;
+case "Congolese Franc": amountChanged = amountInPounds *Congolese_Franc;break;
+case "Costa Rican Colon": amountChanged = amountInPounds *Costa_Rican_Colon;break;
+case "Croatin Kuna": amountChanged = amountInPounds *Croatin_Kuna;break;
+case "Cuban Peso": amountChanged = amountInPounds *Cuban_Peso;break;
+case "Czech koruna": amountChanged = amountInPounds *Czech_koruna;break;
+case "Danish krone": amountChanged = amountInPounds *Danish_krone;break;
+case "Djiboutian Peso": amountChanged = amountInPounds *Djiboutian_Peso;break;
+case "East Caribbean Dollar": amountChanged = amountInPounds *East_Caribbean_Dollar;break;
+case "Egyptian Pound":amountChanged = amountInPounds *Egyptian_Pound;break;
+case "European Euro": amountChanged = amountInPounds *European_Euro;break;
+case "FIjan Dollar":amountChanged = amountInPounds * FIjan_Dollar;break;
+case "Gambian Dalasi":amountChanged = amountInPounds * Gambian_Dalasi;break;
+case "Georgian Lari": amountChanged = amountInPounds *Georgian_Lari;break;
+case "Ghanaian cedi": amountChanged = amountInPounds *Ghanaian_cedi;break;
+case "Gautamalam Quetzal":amountChanged = amountInPounds * Gautamalam_Quetzal;break;
+case "Guinean Franc": amountChanged = amountInPounds *Guinean_Franc;break;
+case "Guyanaese Dollar":amountChanged = amountInPounds *Guyanaese_Dollar;break;
+case "Haitian Gourde": amountChanged = amountInPounds *Haitian_Gourde;break;
+case "Honduran Lempira": amountChanged = amountInPounds *Honduran_Lempira;break;
+
+case "Hungarian Forint": amountChanged = amountInPounds *Hungarian_Forint;break;
+case "Icelandic Krona": amountChanged = amountInPounds *Icelandic_Krona;break;
+case "Indian Rupee": amountChanged = amountInPounds *Indian_Rupee;break;
+case "Iranian Rial": amountChanged = amountInPounds *Iranian_Rial;break;
+case "Iraqi Dinar": amountChanged = amountInPounds *Iraqi_Dinar;break;
+case "Israeli New Shekel": amountChanged = amountInPounds *Israeli_New_Shekel;break;
+case "Jamacian Dollar": amountChanged = amountInPounds *Jamacian_Dollar;break;
+case "Japanese Yen": amountChanged = amountInPounds *Japanese_Yen;break;
+case "Jordanian Dinar":amountChanged = amountInPounds * Jordanian_Dinar;break;
+case "Kazakhstani TengeKenyn Shilling":amountChanged = amountInPounds *Kazakhstani_TengeKenyn_Shilling;break;
+case "Kuwaiti Dinar": amountChanged = amountInPounds *Kuwaiti_Dinar;break;
+case "Kyrgystani Som":amountChanged = amountInPounds *Kyrgystani_Som;break;
+case "Laotian Kio": amountChanged = amountInPounds *Laotian_Kio;break;
+case "Lebanese Pound": amountChanged = amountInPounds *Lebanese_Pound;break;
+case "Lesotho Loti": amountChanged = amountInPounds *Lesotho_Loti;break;
+case "Liberian Dollar": amountChanged = amountInPounds *Liberian_Dollar;break;
+
+case "PolandZloty":amountChanged = amountInPounds * Poland_Zloty;break;
+
+case "Qatari Rial":amountChanged = amountInPounds *Qatari_Rial;break;
+case "Romanian Leu": amountChanged = amountInPounds *Romanian_Leu;break;
+case "Russian Ruble": amountChanged = amountInPounds *Russian_Ruble;break;
+case "Rwandan Franc": amountChanged = amountInPounds *Rwandan_Franc;break;
+case "Salvadoran Colon":amountChanged = amountInPounds * Salvadoran_Colon;break;
+case "Saudi Dinar": amountChanged = amountInPounds *Saudi_Dinar;break;
+case "Serbian Dinar": amountChanged = amountInPounds *Serbian_Dinar;break;
+case "Seychellois Rupee": amountChanged = amountInPounds *Seychellois_Rupee;break;
+case "Seirra Leonean Leone":amountChanged = amountInPounds * Seirra_Leonean_Leone;break;
+case "Singapore Dollar":amountChanged = amountInPounds * Singapore_Dollar;break;
+case "Sol": amountChanged = amountInPounds *Sol;break;
+case "SouthAfrican_Rand": amountChanged = amountInPounds *SouthAfrican_Rand;break;
+case "South Korean Won": amountChanged = amountInPounds *South_Korean_Won;break;
+case "Sovereign Bolivar": amountChanged = amountInPounds *Sovereign_Bolivar;break;
+case "Sri Lankan Rupee": amountChanged = amountInPounds *Sri_Lankan_Rupee;break;
+case "Sudanese Pound": amountChanged = amountInPounds *Sudanese_Pound;break;
+case "Surinamese Dollar": amountChanged = amountInPounds *Surinamese_Dollar;break;
+case "Swedish Krona": amountChanged = amountInPounds *Swedish_Krona;break;
+case "Swiss Franc": amountChanged = amountInPounds *Swiss_Franc;break;
+case "Tjikistani Somani": amountChanged = amountInPounds *Tjikistani_Somani;break;
+case "Tanzanian Shilling": amountChanged = amountInPounds *Tanzanian_Shilling;break;
+case "Thai Baht": amountChanged = amountInPounds *Thai_Baht;break;
+case "Tongon Paanga":amountChanged = amountInPounds *Tongon_Paanga;break;
+case "Triniad Dollar": amountChanged = amountInPounds *Triniad_Dollar;break;
+case "Tunisian Dinar": amountChanged = amountInPounds *Tunisian_Dinar;break;
+case "Turkish kira": amountChanged = amountInPounds *Turkish_lira;break;
+case "Turkmenistani Manat": amountChanged = amountInPounds *Turkmenistani_Manat;break;
+case "Ugandb Shilling": amountChanged = amountInPounds *Ugandb_Shilling;break;
+case "Ukranian Hryvnia": amountChanged = amountInPounds *Ukranian_Hryvnia;break;
+case "UAE Dirham": amountChanged = amountInPounds *UAE_Dirham;break;
+case "US Dollar": amountChanged = amountInPounds *US_Dollar;break;
+case "Uruguayan Peso": amountChanged = amountInPounds *Uruguayan_Peso;break;
+case "Uzbekistani Som": amountChanged = amountInPounds *Uzbekistani_Som;break;
+case "Vietnamese Dong": amountChanged = amountInPounds *Vietnamese_Dong;break;
+case "Yemani Rial": amountChanged = amountInPounds *Yemani_Rial;break;
+case "Zambian Kwacha": amountChanged = amountInPounds *Zambian_Kwacha;break;
+	default:amountChanged = amountInPounds * 0.0;
+        }
+        
+        String value = String.format("%.2f",amountChanged);
+         
+        t2.setText(value);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        firstCurrency.setSelectedIndex(0);
+        secondCurrency.setSelectedIndex(0);
+        t1.setText("");
+        t2.setText("");
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(Currency_Converter_123.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(Currency_Converter_123.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(Currency_Converter_123.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(Currency_Converter_123.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new Currency_Converter_123().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JComboBox<String> firstCurrency;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JComboBox<String> secondCurrency;
+    private javax.swing.JTextField t1;
+    private javax.swing.JTextField t2;
+    // End of variables declaration//GEN-END:variables
+}
